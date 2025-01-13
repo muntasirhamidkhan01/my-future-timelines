@@ -1,0 +1,140 @@
+.body-class{
+    background-color: rgb(0, 0, 0);
+}
+.main-class{}
+.center{
+    text-align: center;
+}
+.give-up .btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.btn{
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+.h3-parent{
+    color: black;
+    background-color: white;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 7vh;
+    border-radius: 8px;
+    margin-right: 12px;
+    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+}
+.give-up .button-box{
+    /* background-color:antiquewhite ; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.give-up .yes{
+    color: white;
+    background-color: rgb(16, 232, 16);
+    width: 10%;
+    height: 50px;
+    background-color: 10px 10px 10px 10px;
+    box-shadow: 5px 20px 50px 1px rgb(59, 247, 72), -10px -10px 50px 1px #03f2ff41;
+}
+.give-up .no{
+    font-family: cursive;
+    color: white;
+    background-color: rgb(255, 50, 50);
+    width: 10%;
+    height: 50px;
+    box-shadow: 25px 10px 50px 10px rgba(255, 66, 66, 0.491), -10px -10px 50px 1px #03f2ff53; 
+}
+.give-up .after-death{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(50, 122, 255);
+    width: 14%;
+    height: 50px;
+    box-shadow: 25px 10px 50px 10px rgba(66, 142, 255, 0.491), -10px -10px 50px 1px #03f2ff53;
+}
+.textarea-execute-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.suggestion{
+    color: rgb(255, 68, 0);
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow:  2px 4px 30px 1px rgba(255, 255, 255, 0.491), -10px -10px 50px 1px #7700ff53;
+    margin-bottom: 10px;
+}
+.suggestion:focus{
+    font-weight: bolder;
+    /* background-color: red; */
+    outline: yellow;
+    border: rgb(0, 0, 0) 4px dotted;
+    /* margin-bottom: 10px; */
+}
+.textarea-execute-parent .suggestion::placeholder{
+    text-align: center;
+}
+.execute{
+    font-family:fantasy;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 40px;
+    background-color: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 50px 1px rgb(255, 255, 255), -1px -1px 10px 1px #ff848480;
+}
+        /* Section-Timeline */
+.timeline{
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    margin: 50px 10px 0px 17px;
+    padding: 10px 13px 10px 25px;
+    border-radius: 5px;
+}
+.timeline-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.timeline-subtitle{
+    color: rgba(0, 0, 0, 0.872);
+}
+.timeline-0{
+    color: rgb(255, 255, 255);
+    text-align: start;
+    background-color: rgb(0, 0, 0);
+    width: 98%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 15px 0px;
+}
+.card-title{
+    font-size: 40px;
+    margin-bottom: 0x;
+}
+.card-subtitle{
+    font-size: 15px;
+}
+.timeline-card-child{
+    /* background-color: rgb(0, 0, 0); */
+    width: 60%;
+}
+.eren-gif{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 23px 1px rgb(255, 255, 255);
+}

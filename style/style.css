@@ -1,7 +1,6 @@
 .body-class{
     background-color: rgb(0, 0, 0);
 }
-.main-class{}
 .center{
     margin: auto;
     width: 42%
@@ -24,16 +23,14 @@
 .h3-parent{
     color: black;
     background-color: white;
-    font-size: xx-large;
-    font-family:Arial, Helvetica, sans-serif;
-    height: 7vh;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     border-radius: 8px;
-    margin-right: 2px;
-    padding-left: 50px;
+    padding: 1rem;
     box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+    text-align: center;
 }
 .give-up .button-box{
-    /* background-color:antiquewhite ; */
     display: flex;
     justify-content:center;
     align-items: center;
@@ -83,10 +80,8 @@
 }
 .suggestion:focus{
     font-weight: bolder;
-    /* background-color: red; */
     outline: yellow;
     border: rgb(0, 0, 0) 4px dotted;
-    /* margin-bottom: 10px; */
 }
 .textarea-execute-parent .suggestion::placeholder{
     text-align: center;
@@ -112,9 +107,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     font-weight: bolder;
+    text-align: center;
 }
 .timeline-subtitle{
     color: rgba(0, 0, 0, 0.872);
+    text-align: center;
 }
 .timeline-0{
     color: rgb(255, 255, 255);
@@ -126,7 +123,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 30px 0px;
 }
 .card-title{
     font-size: 40px;
@@ -136,11 +133,36 @@
     font-size: 15px;
 }
 .timeline-card-child{
-    /* background-color: rgb(0, 0, 0); */
+    padding-left: 0.5rem;
     width: 60%;
 }
 .eren-gif{
     border: none;
     border-radius: 8px;
     box-shadow: 0px 0px 23px 1px rgb(255, 255, 255);
+}
+.card-title-2{
+    padding-left: 0.5rem;
+    font-size: 2.5rem;
+}
+.card-subtitle-2{
+    padding-left: 0.5rem;
+}
+.card-descrition-2{
+    padding-left: 0.5rem;
+    line-height: 1.5rem;
+    
+}
+.card-descrition{
+    line-height: 1.5rem;
+    padding-right: 1rem;
+}
+.audio-btn{
+    padding-left: 0.5rem;
+}
+.marquee-c{
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 28, 33);
+    border-radius: 0.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
